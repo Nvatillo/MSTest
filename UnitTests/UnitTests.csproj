@@ -50,14 +50,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj">
-      <Project>{9919fe85-dd4a-4797-838e-c585a6e02d7a}</Project>
-      <Name>ApplicationCore</Name>
+    <ProjectReference Include="..\ApplicationCoreP\ApplicationCoreP.csproj">
+      <Project>{8c47099a-a6f6-43de-8676-ed7a4c00e897}</Project>
+      <Name>ApplicationCoreP</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
